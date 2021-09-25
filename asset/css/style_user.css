@@ -1,0 +1,227 @@
+.logo{
+    
+    width: 100%;
+    height: 142px;
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/banner.png);
+}
+.buton-login{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.342);
+    border-radius: 5px;
+    height: 142px;
+    margin: 12px 0;
+}
+header{
+    border-top: 7px solid rgba(146, 11, 11, 0.938);
+}
+nav{
+    background-color: var(--blue_color);
+}
+.nav_list{
+    list-style-type: none;
+}
+.nav-item{
+
+    float: left;
+    text-decoration: none;
+}
+.link-item{
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+    font-size: 17px;
+}
+.link-item:hover{
+    object-fit: cover;
+    color: white;
+    text-decoration: none;
+    background-color: var(--blue_bg);
+}
+.nav-item.active{
+    background-color: rgba(212, 16, 16, 0.938);;
+}
+section{
+    margin-top: 80px;
+}
+.title,.content{
+    height: 3rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.content{
+    height: 4rem;
+    -webkit-line-clamp: 3;
+}
+.name_event_detail{
+    padding: 12px;
+    width: 100%;
+    color: red;
+    text-align: center;
+    
+}
+.name_event_detail>h1{
+    font-weight: 900;
+}
+.img_event_detail{
+    text-align: center;
+}
+.img_event_detail>img{
+    width: 700px;
+   
+}
+.text_event_detail{
+   
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text_event_detail p{
+    margin-left: 40px;
+}
+.event_detail_type{
+    display: inline-block;
+    color: var(--blue_color)
+}
+.button-ground{
+    margin: 60px 0;
+    text-align: center;
+}
+.button-ground button{
+    min-width: 300px;
+}
+.form-loc{
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.select_active{
+    width: 200px;
+    padding: 7px;
+    margin-right: 10px;
+}
+.registration{
+    position: relative;
+}
+footer{
+    background-color: var(--blue_color);
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+footer>p{
+    padding: 30px 0;
+
+}
+.seach{
+    display: flex;
+    margin-bottom: 20px;
+    float: right;
+    border: 1px solid #dee2e6;;
+    height: 30px;
+    width: 440px;
+    background-color: white;
+}
+.seach>.input{
+    flex: 1;
+    border-color: transparent;
+    outline: none;
+    padding: 10px;
+}
+.seach>.button>i{
+    font-size: 24px;
+    color:  #838586;
+}
+.seach>.button{
+    background-color: var(--blue_color);
+    border-color: transparent;
+    display: inline-block;
+    width: 100px !important;
+    flex: none;
+    color: white;
+}
+.user-info a{
+    color: black !important;
+}
+.user-info a:hover{
+    color: red !important;
+}
+.user-info{
+  
+    font-size: 30px;
+    padding: 15px 30px;
+    background-color: rgba(201, 192, 192, 0.253);
+    border-radius: 5px;
+    height: 142px;
+    margin: 12px 0;
+    
+}
+.wp_change_pass {
+    width: 530px;
+    margin: 0 auto;
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #ebebeb;
+    background: #f9f9f9;
+}
+h1.title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0px;
+    color: #0458ad;
+}
+.form_login input[type="submit"] {
+    background: #be010a;
+    color: #FFF;
+    border: 0px;
+    padding: 7px 5px;
+    width: 250px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+}
+.form_login div {
+    margin-bottom: 5px;
+}
+.form_login div input[type="text"], .form_login div input[type="password"] {
+    width: 250px;
+    padding: 7px;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.form_login div {
+    margin-bottom: 5px;
+}
+.change-password-sv input, .div-login-sv input {
+    width: 100% !important;
+}
+.update_infor p{
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+    
+}
+.update_infor{
+    margin-bottom: 80px;
+    padding: 30px 100px;
+    background-color: rgba(71, 99, 255, 0.219);
+}
+.modal.show .modal-dialog{
+    width: 300px;
+}
+.modal-title{
+    color: red;
+}
