@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue_color:#0a4181;
+    --blue_bg:#347cce;
+}
+body{
+
+    font-size: 14px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+p{
+    margin: 0;
+}
